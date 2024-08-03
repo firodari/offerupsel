@@ -1,0 +1,188 @@
+  #quantity-offers .preview-offer{
+    padding: 10px;
+    border-radius: px;
+    border: 0px solid #d1d1d1; /* Default non-selected border */
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+    min-height: 80px;
+    flex-direction: row;
+    ackground: #eee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+  }
+
+  #quantity-offers .preview-offer.selected {
+    background: linear-gradient(90deg,rgba(106, 199, 49, 0.03),rgba(147,214,107,.2) 48.96%,rgba(146,226,154,.2)); /* Light shade of your ACF color */
+    border-colo: var(--lp-color); /* Using a CSS variable for ACF color */
+    
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+      border: 2px solid var(--lp-color); /* Add border with the ACF color */
+
+  }
+
+  #quantity-offers .preview-offer img {
+    margin-right: 5px;
+     margin-left: 5px;
+    object-fit: contain; /* Ensures the image is not stretched */
+    flex-shrink: 0; /* Prevents the image from shrinking */
+    border-radius: 50%
+  }
+
+  #quantity-offers .offer-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+  }
+
+  #quantity-offers .offer-title {
+    font-weight: bold;
+    padding-bottom: 5px;
+     font-size: 16px; /* Increase font size */
+    line-height: 1.5; /* Add more line height */
+  }
+
+.preview-offer .offer-badge {
+    background-color: var(--lp-color);
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 12px;
+    position: absolute;
+    top: auto; /* إزالة التثبيت في الأعلى */
+    bottom: 0; /* تثبيت الشارة في أسفل العنصر */
+    left: 0;
+        border-top-right-radius: 10px; /* تدوير الزاوية العليا اليمنى */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* ظل بسيط للشارة */
+}
+
+
+
+
+
+
+#quantity-offers .pricing {
+   
+    flex-direction: column;
+    align-items: flex-end; /* Aligns prices to the right */
+    justify-content: center; /* Centers prices vertically */
+}
+
+#quantity-offers .pricing  {
+      min-width: 70px;
+    text-align: right; /* Align text to the right */
+    white-space: nowrap;
+}
+
+
+  #quantity-offers .compare-price {
+    text-decoration: line-through;
+    margin: 0; /* Reset margins for consistent alignment */
+     color: gray;
+     font-size: 16px;
+  }
+
+  #quantity-offers .sale-price {
+  font-weight: bold;
+    margin: 0; /* Reset margins for consistent alignment */
+       font-size: 16px;
+       color: #55ac3d;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  .elementor-1634 .elementor-element.elementor-element-8fb115f {
+
+  background: #f9f9f9;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.price-summary {
+    background-color: #f8f9fa; /* لون خلفية فاتح */
+    padding: 10px; /* مسافة داخلية */
+    border-radius: 5px; /* زوايا منحنية */
+    margin: 20px 0; /* مسافة علوية وسفلية */
+    text-align: center; /* توسيط النص */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+}
+
+.total-price {
+    font-size: 14px; /* حجم الخط */
+    font-weight: bold; /* وزن الخط */
+    color: #61ce70; /* لون النص */
+}
+
+
+.kPmlfB {
+  width: 100%;
+  display: flex;
+  -moz-box-pack: center;
+  justify-content: center;
+  -moz-box-align: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.kPmlfB .line {
+  -moz-box-flex: 1;
+  flex-grow: 1;
+  height: 1px;
+  background: rgb(217, 217, 217);
+}
+
+.kPmlfB .text {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(185, 185, 185);
+  margin: 0px 32px;
+}
+.kPmlfB .line {
+  -moz-box-flex: 1;
+  flex-grow: 1;
+  height: 1px;
+  background: rgb(217, 217, 217);
+}
+
+
+
+.elementor-2915 .elementor-element.elementor-element-55ade6d1 > .elementor-widget-container {
+  padding: 0px 0px 0px 0px;
+}
+
+
+       
+       
+       
+       
+       
+       .preview-offer {
+    position: relative; /* Ensures that .offer-badge is positioned relative to .preview-offer */
+    margin-bottom: 20px; /* Adds spacing between offers */
+    padding: 10px; /* Adds padding inside each offer box */
+    border: 1px solid #ddd; /* Adds a border around each offer box */
+    border-radius: 10px; /* Rounds the corners of each offer box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to each offer box */
+}
+
+
+
+
+
+
+
